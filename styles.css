@@ -3,30 +3,34 @@ body {
     box-sizing:border-box;
     margin:0;
     padding:0;
+    color:#000000;
+    background-color:#00ff6d;
 }
 .card-container {
+    box-sizing:border-box;
     display:flex;
-    width:90vw;
+    width:90%;
     margin:3rem auto;
     flex-direction:row;
     align-items:center;
     flex-wrap:wrap;
     flex-direction:row;
-    background-color:yellow;
-    padding:5%
+    background-color:#008605;
+    padding:5%;
+    justify-content:space-between;
+    row-gap:5rem;
 }
 .card {
-    width:28%;
-    height:30rem;
+    width:28rem;
+    height:35rem;
     border: 2px solid black;
     border-radius:3px;
     display:flex;
     flex-direction:column;
     align-items:center;
+    background-color:#f6ffc3;
 }
 .card-image {
     width:75%;
     height:50%;
-
-
 }
