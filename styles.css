@@ -6,6 +6,7 @@ body {
     color:#000000;
     background-color:#00ff6d;
 }
+h1 {}
 .card-container {
     box-sizing:border-box;
     display:flex;
