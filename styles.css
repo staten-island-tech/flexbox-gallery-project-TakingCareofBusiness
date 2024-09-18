@@ -7,7 +7,9 @@ body {
     background-color:#00ff6d;
 }
 h1 {
-    font-size:40px;
+    font-size:50px;
+    text-align:center;
+    margin-top:3%;
 }
 .card-container {
     box-sizing:border-box;
@@ -27,13 +29,14 @@ h1 {
     width:28rem;
     height:35rem;
     border: 2px solid black;
-    border-radius:3px;
+    border-radius:15px;
     display:flex;
     flex-direction:column;
     align-items:center;
     background-color:#f6ffc3;
     min-width:22rem;
     min-height:29rem;
+    box-shadow:10px 10px;
 }
 .card-image {
     width:75%;
