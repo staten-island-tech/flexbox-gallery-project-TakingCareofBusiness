@@ -44,3 +44,10 @@ h1 {
     width:75%;
     height:50%;
 }
+#Glaaber-Photo {
+    transition: all 0.3s;
+}
+#Glaaber-Photo:hover {
+    transform:scale(3);
+
+}
