@@ -44,6 +44,9 @@ h1 {
     width:75%;
     height:50%;
 }
+@media screen {max-width: ;
+    
+}
 #Glaaber-Photo {
     transition: all 0.1s;
 }
