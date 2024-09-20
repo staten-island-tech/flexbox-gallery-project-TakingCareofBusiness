@@ -44,8 +44,10 @@ h1 {
     width:75%;
     height:50%;
 }
-@media  screen and{
-    
+@media screen and (max-width:1400px)  {
+    #Glaaber-Photo:hover {
+        transform: scale(3) translate(500px) ;
+    }
 }
 #Glaaber-Photo {
     transition: all 0.1s;
