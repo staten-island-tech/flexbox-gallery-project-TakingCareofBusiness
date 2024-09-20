@@ -45,6 +45,20 @@ h1 {
     height:50%;
 }
 
+@media screen and (max-width:1150px ) {
+    .card-container {
+        flex-direction:column;
+    }
+    .card {
+        width:50%;
+    }
+}
+@media screen and (max-width:600px) {
+    .card{
+        width:25%;
+        height:25%;
+    }
+}
 #Glaaber-Photo {
     transition: all 0.1s;
 }
@@ -63,9 +77,13 @@ h1 {
     transition: all 1s;
 }
 #Enphosian-Photo:hover {
-    box-shadow: 50px 50px 50px 1000px;
+    transform: scale(1.3);
+    box-shadow: 50px 50px 50px 1200px;
+    background-color:black;
 }
 #Gleeber-Photo {
-    transition: all 1s;
+    transition: all 2s;
 }
-#Gleeber-Photo:hover {}
+#Gleeber-Photo:hover {
+    transform: rotate(360deg);
+}
