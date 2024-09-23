@@ -39,6 +39,7 @@ h1 {
     min-width:22rem;
     min-height:29rem;
     box-shadow:10px 10px;
+    text-align:center;
 }
 .card-image {
     width:75%;
@@ -105,4 +106,10 @@ h1 {
     0% {transform:rotate(30deg);}
     50% {transform:rotate(-30deg);}
     100% {transform:rotate(30deg);}
+}
+#Glagoon-Photo {
+    transition:all 5s;
+}
+#Glagoon-Photo:hover {
+    transform:translateY(-20rem)
 }
