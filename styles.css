@@ -99,5 +99,14 @@ h1 {
     transform: translateY(-100px);
 }
 #Giggler-Photo:hover {
-    animation:4s linear 0s infinite alternate none running;
+    animation-name:Giggling;
+    animation-duration:2s;
+}
+@keyframes Giggling {
+    0% {transform:rotate(0deg);}
+    20% {transform:rotate(30deg);}
+    40% {transform:rotate(-30deg);}
+    60% {transform:rotate(30deg);}
+    80% {transform:rotate(-30deg);}
+    100%{transform:rotate(0deg);}
 }
