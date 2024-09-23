@@ -63,7 +63,7 @@ h1 {
     transition: all 0.1s;
 }
 #Glaaber-Photo:hover {
-    transform: scale(3) translate(-50%) ;
+    transform: scale(3);
 }
 
 #Enphosian-Photo {
