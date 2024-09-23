@@ -28,8 +28,8 @@ h1 {
     row-gap:5rem;
 }
 .card {
-    width:28rem;
-    height:35rem;
+    width:24%;
+    height:31rem;
     border: 2px solid black;
     border-radius:15px;
     display:flex;
@@ -99,14 +99,10 @@ h1 {
     transform: translateY(-100px);
 }
 #Giggler-Photo:hover {
-    animation-name:Giggling;
-    animation-duration:2s;
+    animation:Giggling 1s infinite;
 }
 @keyframes Giggling {
-    0% {transform:rotate(0deg);}
-    20% {transform:rotate(30deg);}
-    40% {transform:rotate(-30deg);}
-    60% {transform:rotate(30deg);}
-    80% {transform:rotate(-30deg);}
-    100%{transform:rotate(0deg);}
+    0% {transform:rotate(30deg);}
+    50% {transform:rotate(-30deg);}
+    100% {transform:rotate(30deg);}
 }
