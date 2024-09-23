@@ -80,3 +80,9 @@ h1 {
 #Gleeber-Photo:hover {
     transform: translate(0rem,-10rem) rotate(360deg)  ;
 }
+#Gloober-Photo {
+    transition:all 1.5s ease-out;
+}
+#Gloober-Photo:hover {
+    transform: rotateX(1080deg);
+}
