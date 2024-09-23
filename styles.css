@@ -98,3 +98,6 @@ h1 {
 #Gazo-Photo:hover {
     transform: translateY(-100px);
 }
+#Giggler-Photo:hover {
+    animation:4s linear 0s infinite alternate none running;
+}
