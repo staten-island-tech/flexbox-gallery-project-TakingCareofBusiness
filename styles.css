@@ -86,3 +86,15 @@ h1 {
 #Gloober-Photo:hover {
     transform: rotateX(1080deg);
 }
+#Gembo-Photo {
+    transition:all 2s ease-in;
+}
+#Gembo-Photo:hover {
+    transform:skewX(45deg)
+}
+#Gazo-Photo {
+    transition:all 20s;
+}
+#Gazo-Photo:hover {
+    transform: translateY(-100px);
+}
