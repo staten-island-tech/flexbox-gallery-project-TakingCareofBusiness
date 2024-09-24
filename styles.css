@@ -122,3 +122,22 @@ h1 {
 #Changlug-Photo:hover {
     height:25rem;
 }
+#Sobber-Photo:hover {
+    animation:Sobbing 4s forwards;
+}
+@keyframes Sobbing {
+    0% {opacity:100%;}
+    100% {opacity:0%;}
+}
+#Paleoglag-Photo {
+    transition:all 9s;
+}
+#Paleoglag-Photo:hover {
+    filter:brightness(150%);
+}
+#Mimic-Photo {
+    transition:all 5s;
+}
+#Mimic-Photo:hover {
+    filter:invert(100%);
+}
