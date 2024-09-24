@@ -60,6 +60,9 @@ h1 {
         height:25%;
     }
 }
+@media screen and (max-width:480px) {
+    
+}
 #Glaaber-Photo {
     transition: all 0.1s;
 }
@@ -112,4 +115,10 @@ h1 {
 }
 #Glagoon-Photo:hover {
     transform:translateY(-20rem)
+}
+#Changlug-Photo {
+    transition:all 2s;
+}
+#Changlug-Photo:hover {
+    height:25rem;
 }
